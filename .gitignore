@@ -1,0 +1,35 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Checkpoints & Cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environment Variables & Secrets
+.env
+.env.*
+
+# Large CSV Files (> 50 MB - Exceeds GitHub soft limit)
+output_clean_tables/clean_sales_transactions.csv
+
+# Logs & Temporary Files
+*.log
+simba_ingestion.log
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
