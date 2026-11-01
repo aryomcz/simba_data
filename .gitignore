@@ -18,7 +18,7 @@ __pycache__/
 .env.*
 
 # Large CSV Files (> 50 MB - Exceeds GitHub soft limit)
-output_clean_tables/clean_sales_transactions.csv
+# output_clean_tables/clean_sales_transactions.csv
 
 # Logs & Temporary Files
 *.log
